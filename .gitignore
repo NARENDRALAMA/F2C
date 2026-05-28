@@ -1,0 +1,33 @@
+# Claude Code settings
+.claude
+
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+out
+
+# Environment variables — never commit these
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,7 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  <ellipse cx="200" cy="150" rx="100" ry="60" fill="#228b22"/>
+  <ellipse cx="200" cy="150" rx="90" ry="50" fill="#32cd32"/>
+  <ellipse cx="200" cy="150" rx="80" ry="40" fill="#228b22"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial" font-size="24" fill="#333">Organic Spinach</text>
+</svg>

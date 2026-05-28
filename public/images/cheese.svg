@@ -1,0 +1,7 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  <rect x="150" y="100" width="100" height="80" rx="10" fill="#ffd700"/>
+  <rect x="160" y="110" width="80" height="60" fill="#ffff00"/>
+  <rect x="170" y="120" width="60" height="40" fill="#ffd700"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial" font-size="24" fill="#333">Artisanal Cheddar Cheese</text>
+</svg>

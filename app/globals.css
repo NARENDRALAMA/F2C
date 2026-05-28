@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts load via next/font in layout.jsx — avoid @import here so Tailwind CSS is never blocked by network/font CDNs (e.g. Cursor Simple Browser). */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  .btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  .btn-danger {
+    @apply bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-200 p-6;
+  }
+  .input-field {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-colors;
+  }
+  .badge-status-pending   { @apply bg-yellow-100 text-yellow-800; }
+  .badge-status-confirmed { @apply bg-blue-100 text-blue-800; }
+  .badge-status-processing { @apply bg-indigo-100 text-indigo-800; }
+  .badge-status-shipped   { @apply bg-purple-100 text-purple-800; }
+  .badge-status-delivered { @apply bg-green-100 text-green-800; }
+  .badge-status-cancelled { @apply bg-red-100 text-red-800; }
+}
